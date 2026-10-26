@@ -132,10 +132,11 @@ def missing_model_msg(key):
 # Pages
 # ----------------------------------------------------------------------------
 def page_home():
+    def page_home():
     st.markdown("""<div class="hero"><h1>🩺 General Disease Prediction System</h1>
-    <p style="font-size:1.1rem">A machine-learning web app that screens six conditions using
-    separate, independently trained models: Diabetes, Heart Disease, Chronic Kidney Disease,
-    Liver Disease, Parkinson's Disease and Breast Cancer (tumour classification).</p></div>""",
+    <p style="font-size:1.1rem">A machine-learning web app that screens five conditions using
+    separate, independently trained models: Diabetes, Heart Disease, Liver Disease,
+    Parkinson's Disease and Breast Cancer (tumour classification).</p></div>""",
                 unsafe_allow_html=True)
     st.write("")
     st.warning(DISCLAIMER)
