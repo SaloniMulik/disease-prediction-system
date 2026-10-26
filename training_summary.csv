@@ -1,0 +1,11 @@
+disease,model,selected,cv_f1,accuracy,precision,recall,f1,roc_auc,tn,fp,fn,tp
+Diabetes,Logistic Regression,False,0.6823,0.7078,0.5714,0.6667,0.6154,0.8104,73,27,18,36
+Diabetes,Random Forest,True,0.7033,0.7273,0.5909,0.7222,0.65,0.818,73,27,15,39
+Heart Disease,Logistic Regression,True,0.8054,0.8689,0.8125,0.9286,0.8667,0.9502,27,6,2,26
+Heart Disease,Random Forest,False,0.7917,0.8852,0.8387,0.9286,0.8814,0.9535,28,5,2,26
+Liver Disease,Logistic Regression,False,0.6887,0.7193,0.9153,0.6667,0.7714,0.8006,28,5,27,54
+Liver Disease,Random Forest,True,0.8105,0.7018,0.7282,0.9259,0.8152,0.7608,5,28,6,75
+Parkinson's Disease,Logistic Regression,True,0.9023,0.6531,0.7381,0.8378,0.7848,0.5946,1,11,6,31
+Parkinson's Disease,Random Forest,False,0.8827,0.7551,0.7551,1.0,0.8605,0.6914,0,12,0,37
+Breast Cancer,Logistic Regression,True,0.9671,0.9912,1.0,0.9762,0.988,0.9977,72,0,1,41
+Breast Cancer,Random Forest,False,0.9525,0.9737,1.0,0.9286,0.963,0.9965,72,0,3,39
